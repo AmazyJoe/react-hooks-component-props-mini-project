@@ -1,0 +1,12 @@
+import React from 'react';
+
+function Article({title, when, entails}){
+    return(
+        <article>
+            <h3>{title}</h3>,
+            <small>{when}</small>
+            <p>{entails}</p>
+        </article>
+    )
+}
+export default Article;

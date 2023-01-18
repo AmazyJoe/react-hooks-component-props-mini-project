@@ -1,0 +1,11 @@
+import Article from "./Article";
+function ArticleList({title,when,entails}){
+return(
+    <main>
+        const ArticleList=[{Article}]
+    </main>
+)
+}
+
+
+export default ArticleList;
